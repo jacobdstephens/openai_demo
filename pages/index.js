@@ -29,13 +29,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Ask Me Anything</title>
+        <title>Ask Me Stuff</title>
         <link rel="icon" href="/question-mark.png" />
       </Head>
 
       <main className={styles.main}>
         <img src="/question-mark.png" className={styles.icon} />
-        <h3>Ask Me Anything.</h3>
+        <h3>Ask Me Stuff.</h3>
         <form onSubmit={onSubmit}>
         <input
             type="text"
